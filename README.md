@@ -6,3 +6,6 @@ A live preview will be available soon.
 
 ##How is Thinny licensed?
 It is released under the [MIT License](http://opensource.org/licenses/mit-license.php), one of the most permissive of all open source licenses. It can be freely used by commerical and non-commerical entities alike.
+
+##How can I customize Thinny?
+This information will be shared soon.
