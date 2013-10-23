@@ -1,13 +1,20 @@
 #Thinny - The Infinite's Nymphet
 
+<<<<<<< HEAD
 ##About
 Thinny is a responsive theme for [Ghost](https://github.com/TryGhost/Ghost).
 It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](https://github.com/Thomascullen92/Ellie) theme.
+=======
+##What's Thinny?
+Thinny is a fork of [Thomascullen92's Ellie theme](https://github.com/Thomascullen92/Ellie) for [Ghost](https://github.com/TryGhost/Ghost).
+A live preview will be available soon.
+>>>>>>> 87dd0ba52b1d12065c221a439cd3b02986de7d45
 
 ##Screenshots
 [![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](#)
 A live demo will be available soon.
 
+<<<<<<< HEAD
 ##Instalation
 * Clone Thinny's repo to /content/themes/Thinny;
 * Restart Ghost;
@@ -27,3 +34,7 @@ The CSS files are placed in /assets/css.
 
 ##License
 Thinny is released under the [MIT License](http://opensource.org/licenses/mit-license.php), one of the most permissive of all open source licenses. It can be freely used by commerical and non-commerical entities alike.
+=======
+##How can I customize Thinny?
+This information will be shared soon.
+>>>>>>> 87dd0ba52b1d12065c221a439cd3b02986de7d45
