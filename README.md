@@ -25,5 +25,11 @@ Social icons can be found in /assets/icons.
 ###Hacking
 The CSS files are placed in /assets/css.
 
+##Changelog
+Version 1.0 (not finished yet):
+* Mobile support;
+* Add blog's logo on header;
+* Change font and a lot of things.
+
 ##License
 Thinny is released under the [MIT License](http://opensource.org/licenses/mit-license.php), one of the most permissive of all open source licenses. It can be freely used by commerical and non-commerical entities alike.
