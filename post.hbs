@@ -1,7 +1,7 @@
 {{!< default}}
 
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-	<a href="/" id="logo">Thomas.</a>
+	<a href="/" id="logo">tchen.</a>
 	{{> links}}
 	
 	<div class="cf"></div>
@@ -10,7 +10,7 @@
 	
 	<div id="title">
 		<h1>{{title}}</h1>
-		<h2>{{date format='YYYY-MM-DD'}}</h2>
+		<h2>{{date format='dddd, MMMM DD, YYYY'}}</h2>
 	</div>
 </header>
 
