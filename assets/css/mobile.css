@@ -20,10 +20,4 @@
 #social-links img{
 	width: 22px;
 	margin-top: -4px;
-	opacity: .75;
-}
-
-#social-links img: hover{
-	width: 22px;
-	opacity: 1;
 }
