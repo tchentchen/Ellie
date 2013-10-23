@@ -7,7 +7,6 @@ It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](htt
 ##What's Thinny?
 Thinny is a fork of [Thomascullen92's Ellie theme](https://github.com/Thomascullen92/Ellie) for [Ghost](https://github.com/TryGhost/Ghost).
 A live preview will be available soon.
->>>>>>> 87dd0ba52b1d12065c221a439cd3b02986de7d45
 
 ##Screenshots
 [![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](#)
