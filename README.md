@@ -6,7 +6,8 @@ It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](htt
 
 ##Screenshots
 [![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](#)
-The above image is a preview of how Thinny looks now. Things will change until the final version.
+The above image is a preview of how Thinny looks now. Things **will** change until the final version.
+
 A live demo will be available soon.
 
 ##Instalation
