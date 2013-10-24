@@ -6,7 +6,7 @@ It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](htt
 
 ##Demo
 [![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](http://ghost-camporez.rhcloud.com)
-The above image is a preview of how Thinny looks now. Things **will** change until the final version.
+The above image is a preview of how Thinny looks now. Some things **will** change until the final version.
 A live demo is available [here](http://ghost-camporez.rhcloud.com).
 
 ##Instalation
@@ -17,7 +17,7 @@ A live demo is available [here](http://ghost-camporez.rhcloud.com).
 ##Usage
 ###Main image
 To set a main image for a post, just insert a image on the post with the title (alt-tag) of *main-image*.
-This image will not be showed along the post.
+This image will not be shown along the post.
 ###Menu
 The navigation links for the menu are setup in /partials/links.hbs.
 ###Social links

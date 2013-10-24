@@ -4,6 +4,10 @@
 	width: 900px;
 }
 
+.container img {
+	max-width: 100%;
+}
+
 header {
 	padding-top: 30px;
 }
@@ -15,6 +19,7 @@ header {
 
 #logo {
 	position: fixed;
+	margin-top: -5px;
 }
 
 #logo img {
