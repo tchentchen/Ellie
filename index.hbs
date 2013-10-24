@@ -19,12 +19,12 @@
     <article class="{{post_class}}" id="post-{{id}}">
 		
 		<h1><a href="{{url}}">{{title}}</a></h1>
-		<span class="meta">{{date format='Do MMMM YYYY'}} {{#if tags}} #{{#tags}}name{{/tags}} {{/if}}</span>
+		<span class="meta">{{date format='MM/DD/YYYY'}} {{#if tags}} #{{#tags}}name{{/tags}} {{/if}}</span>
 		<p>{{excerpt}}</p>
     </article>
 
     {{/foreach}}
 
-    {{pagination}}
+{{pagination}}
 
 </div>

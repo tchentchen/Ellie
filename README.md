@@ -6,6 +6,7 @@ It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](htt
 
 ##Screenshots
 [![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](#)
+The above image is a preview of how Thinny looks now. Things will change until the final version.
 A live demo will be available soon.
 
 ##Instalation
@@ -26,10 +27,10 @@ Social icons can be found in /assets/icons.
 The CSS files are placed in /assets/css.
 
 ##Changelog
-Version 1.0 (not finished yet):
+Version 1.0 (**not finished yet**):
 * Mobile support;
-* Add blog's logo on header;
-* Change font and a lot of things.
+* Fix layout inconsistences;
+* Tweak design.
 
 ##License
 Thinny is released under the [MIT License](http://opensource.org/licenses/mit-license.php), one of the most permissive of all open source licenses. It can be freely used by commerical and non-commerical entities alike.

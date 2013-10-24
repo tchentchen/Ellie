@@ -1,38 +1,74 @@
 @import url(default.css);
 
-.container{
+.container {
 	width: 900px;
 }
-header{
+
+header {
 	padding-top: 30px;
 }
 
-#title{
+#title {
 	width: 600px;
 	margin-left: -300px;
 }
 
-#logo{
+#logo {
 	position: fixed;
 }
 
-#logo img{
+#logo img {
 	border-radius: 50%;
 }
 
-nav a{
+nav a {
+	color: #fff;
 	border-top: 4px solid transparent;
 	transition-duration: 0.7s;
+	margin-left: 15px;
 }
 
-nav a:hover{
+nav a:hover {
 	border-color: #fff;
 }
 
-#social-links a{
+.nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.nav li {
+	list-style: none;
+	display: inline-block;
+	*display:inline; /* ie7 */
+}
+
+.nav .menu a {
+	background: #999;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.nav .menu {
+	display: none;
+}
+
+
+#social-links {
+	float: left;
+	margin-left: 30px;
+}
+
+#social-links a {
 	margin-right: 20px;
 }
 
-#social-links img{
+#social-links img {
 	display: none;
+}
+
+#rights {
+	float: right;
+	margin-right: 30px;
 }
