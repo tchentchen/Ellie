@@ -187,10 +187,40 @@ article h2{
 
 article h3{
 	font-weight:100;
-	text-transform:uppercase;
+	text-transform:none;
 	line-height:1.2;
 	letter-spacing:2px;
-	font-size:22px;
+	font-size:28px;
+	margin-bottom:30px;
+	color:#333;
+}
+
+article h4{
+	font-weight:100;
+	text-transform:none;
+	line-height:1.2;
+	letter-spacing:2px;
+	font-size:24px;
+	margin-bottom:30px;
+	color:#333;
+}
+
+article h5{
+	font-weight:100;
+	text-transform:none;
+	line-height:1.2;
+	letter-spacing:2px;
+	font-size:20px;
+	margin-bottom:30px;
+	color:#333;
+}
+
+article h6{
+	font-weight:100;
+	text-transform:none;
+	line-height:1.2;
+	letter-spacing:2px;
+	font-size:18px;
 	margin-bottom:30px;
 	color:#333;
 }
