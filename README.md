@@ -2,12 +2,11 @@
 
 ##About
 Thinny is a responsive theme for [Ghost](https://github.com/TryGhost/Ghost).
-It's a fork of [Thomascullen92](https://github.com/Thomascullen92)'s [Ellie](https://github.com/Thomascullen92/Ellie) theme.
 
 ##Demo
-[![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](http://ghost-camporez.rhcloud.com)
+[![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](http://camporez.com)
 The above image is a preview of how Thinny looks now. Some things **will** change until the final version.
-A live demo is available [here](http://ghost-camporez.rhcloud.com).
+A live demo is available [here](http://camporez.com).
 
 ##Instalation
 * Clone Thinny's repo to /content/themes/Thinny;
@@ -27,7 +26,7 @@ Social icons can be found in /assets/icons.
 The CSS files are placed in /assets/css.
 
 ##Changelog
-Version 1.0 (**not finished yet**):
+Version 0.3 - Alexandra (not finished yet):
 * Mobile support;
 * Fix layout inconsistences;
 * Tweak design.

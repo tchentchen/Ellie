@@ -2,16 +2,16 @@
 
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
 	<a href="/" id="logo"><img src="{{@blog.logo}}" id="logo"></a>
-	{{> links}}
 	
 	<div class="cf"></div>
 	
 	{{#post}}
 	
-	<div id="title">
+	<div id="ctitle"><div id="title">
 		<h1>{{title}}</h1>
 		<h2>{{date format='MMMM DD, YYYY'}}</h2>
-	</div>
+	</div></div>
+	{{> links}}
 </header>
 
 <div class="container" id="content" role="main">
