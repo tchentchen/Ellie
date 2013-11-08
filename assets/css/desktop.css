@@ -41,6 +41,7 @@ nav a:hover {
 }
 
 .nav ul {
+	text-shadow: 0px 0px 3px rgba(100, 100, 100, 1);
 	margin: 0;
 	padding: 0;
 	text-align: right;
