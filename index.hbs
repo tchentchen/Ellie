@@ -1,13 +1,15 @@
 {{!< default}}
 
-<header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}});"{{/if}}>	
+<header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}});"{{/if}}>
+	<div id="site-head-logo-nav">
+		<a href="/" id="logo"><img src="{{@blog.logo}}" id="logo"></a>
+		<div class="cf"></div>
+		{{> links}}
+	</div>
 	<div id="ctitle"><div id="title">
 		<h1>{{@blog.title}}</h1>
 		<h2>{{@blog.description}}</h2>
 	</div></div>
-	<a href="/" id="logo"><img src="{{@blog.logo}}" id="logo"></a>
-	<div class="cf"></div>
-	{{> links}}
 </header>
 
 <div class="container" id="content" role="main">
