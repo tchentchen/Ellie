@@ -1,45 +1,35 @@
-#ELLIE TEMPLATE FOR GHOST
-Get Ghost [Here](https://en.ghost.org) ( its awesome ) </br>
-See how Ellie looks [Here](http://blog.thomascullendesign.com)
+#Thinny - The Infinite's Nymphet
 
-![Ellie](http://i39.tinypic.com/2dub0k6.png)
+##About
+Thinny is a responsive theme for [Ghost](https://github.com/TryGhost/Ghost).
 
-<hr>
+##Demo
+[![Preview image](https://github.com/camporez/Thinny/raw/master/preview.jpg)](http://camporez.com)
+The above image is a preview of how Thinny looks now. Some things **will** change until the final version.
+A live demo is available [here](http://camporez.com).
 
-## how to install
-* Download Ellie and place her inside /content/themes/
-* Restart your instance of ghost
-* Goto your blog settings and choose ellie from the themes dropdown.
+##Instalation
+* Clone Thinny's repo to /content/themes/Thinny;
+* Restart Ghost;
+* Go to your blog settings and change the default theme to *Thinny*.
 
-## how to set a main image for a blog post.
-
-Ellie allows you to upload an image which will be used as the posts featured image in the header. To set a posts main image simply set an image at the start of your post with a name ( alt-tag ) of 'main-image'.
-
-```
-![main-image]
-```
-
-## Navigation
-The navigation links are setup in /partials/links.hbs.
-
-```
-<nav>
-	<a href="http://www.thomascullendesign.com">Home</a>
-	<a href="http://www.thomascullendesign.com">My Work</a>
-	<a href="http://www.thomascullendesign.com">About Me</a>
-	<a href="{{@blog.url}}">My Thoughts</a>
-</nav>
-```
-
+##Usage
+###Main image
+To set a main image for a post, just insert a image on the post with the title (alt-tag) of *main-image*.
+This image will not be shown along the post.
+###Menu
+The navigation links for the menu are setup in /partials/links.hbs.
+###Social links
 The social links in the footer are setup in /partials/socialLinks.hbs.
+Social icons can be found in /assets/icons.
+###Hacking
+The CSS files are placed in /assets/css.
 
-```
-<ul id="social-links">
-	<a href="http://www.twttier.com/thomascullen92">Twitter</a>
-	<a href="https://github.com/Thomascullen92">Github</a>
-	<a href="{{@blog.url}}rss/">Subscribe</a>
-</ul>
-```
+##Changelog
+Version 0.3 - Alexandra (not finished yet):
+* Mobile support;
+* Fix layout inconsistences;
+* Tweak design.
 
-## License
-MIT
+##License
+Thinny is released under the [MIT License](http://opensource.org/licenses/mit-license.php), one of the most permissive of all open source licenses. It can be freely used by commerical and non-commerical entities alike.

@@ -1,7 +1,17 @@
 {{!< default}}
 
+<<<<<<< HEAD
+
+<header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+	<a href="/" id="logo">TCHEN.</a>
+	{{> links}}
+	<div class="cf"></div>
+	
+	<div id="title">
+=======
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}});"{{/if}}>
 	<div id="ctitle"><div id="title">
+>>>>>>> finny/master
 		<h1>{{@blog.title}}</h1>
 		<h2>{{@blog.description}}</h2>
 	</div></div>
@@ -18,12 +28,22 @@
     <article class="{{post_class}}" id="post-{{id}}">
 		
 		<h1><a href="{{url}}">{{title}}</a></h1>
+<<<<<<< HEAD
+		<span class="meta">{{date format='MM/DD/YYYY'}} {{#if tags}} #{{#tags}}name{{/tags}} {{/if}}</span>
+		<p>{{excerpt}} <a href="{{url}}">(more)</a></p>
+=======
 		<span class="meta">{{date format='MM.DD.YYYY'}} {{#if tags}} #{{#tags}}name{{/tags}} {{/if}}</span>
 		<p>{{excerpt}}</p>
+>>>>>>> finny/master
     </article>
 
     {{/foreach}}
 
+<<<<<<< HEAD
+    {{pagination}}
+
+=======
 {{pagination}}
 <div style="clear: both;"></div>
+>>>>>>> finny/master
 </div>

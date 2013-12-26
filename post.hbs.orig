@@ -1,14 +1,27 @@
 {{!< default}}
 
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<<<<<<< HEAD
+	<a href="/" id="logo">tchen.</a>
+	{{> links}}
+	
+	<div class="cf"></div>
+	
+=======
+>>>>>>> finny/master
 	{{#post}}
 	<div id="ctitle"><div id="title">
 		<h1>{{title}}</h1>
+<<<<<<< HEAD
+		<h2>{{date format='dddd, MMMM DD, YYYY'}}</h2>
+	</div>
+=======
 		<h2>{{date format='MMMM DD, YYYY'}}</h2>
 	</div></div>
 	<a href="/" id="logo"><img src="{{@blog.logo}}" id="logo"></a>
 	<div class="cf"></div>
 	{{> links}}
+>>>>>>> finny/master
 </header>
 
 <div class="container" id="content" role="main">
