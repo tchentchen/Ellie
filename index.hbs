@@ -9,7 +9,7 @@
 	<div class="cf"></div>
 	{{> links}}
 </header>
-<di< id="header-serparator"></div>
+<div><id="header-serparator"></div>
 
 <div class="container" id="content" role="main">
 
@@ -19,7 +19,8 @@
 		
 		<h1><a href="{{url}}">{{title}}</a></h1>
 		<span class="meta">{{date format='MM.DD.YYYY'}} {{#if tags}} #{{#tags}}name{{/tags}} {{/if}}</span>
-		<p>{{excerpt}}</p>
+		<p>{{excerpt}}....</p>
+		<a href="{{url}}" class="readmore">Read More</a>
     </article>
 
     {{/foreach}}
